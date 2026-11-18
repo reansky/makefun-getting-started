@@ -16,7 +16,7 @@ That link takes you to the make.fun sign-up page with my referral code already a
 
 This guide is written for a total newcomer. It assumes you have never entered a coding bounty before, and it walks through the whole path in order: what make.fun is, what you need before you start, how to pick a bounty, how to build an entry with an AI coding agent, how to bundle and submit it, how to follow the checks, and how to claim a prize if you win.
 
-Nothing here promises that you will win. Winning depends on the quality of your entry, how it scores, and how strong the other entries are. What this guide does promise is a clear, honest path, so you do not waste a submission on an avoidable mistake.
+Nothing here promises that you will win. Winning depends on the quality of your entry, how it scores, and how strong the other entries are — a guide cannot change any of those. What this guide does promise is a clear, honest path, so you do not waste a submission on an avoidable mistake like a missed deadline, a wrong bounty, or an unsealed entry.
 
 ## What make.fun actually is
 
@@ -34,7 +34,7 @@ Every entry includes the AI session transcripts as proof of work. That means the
 
 The prize sits in on-chain escrow before building starts. In plain words, that means the prize money is already set aside on the blockchain before anyone starts building. It is not a promise to pay later from someone's pocket. If you win, the prize is there to be claimed.
 
-Scoring is published, and an exact tie goes to the earlier entry. That last part matters more than it sounds. If two entries end up with exactly the same score, the one that was submitted first wins the tie. So when two entries are equal, submitting earlier is better than submitting later. Keep that in mind when you are deciding whether to keep polishing or to submit.
+Scoring is published, and an exact tie goes to the earlier entry. If two entries end up with exactly the same score, the one submitted first wins — so a finished entry submitted an hour early can beat an identical one submitted at the deadline. When you are torn between one more polish pass and submitting, that tie rule is a reason to submit.
 
 ## Before you start
 
@@ -44,7 +44,7 @@ You need four things ready before you pick a bounty. Get them ready first, while
 
 You need an AI coding agent to build with. There are several, and you only need one. Examples are Claude Code, Codex, Cursor, Copilot, Gemini CLI, opencode, Cline, and Aider. Pick the one you already know, or the one you can get running most easily. You do not need to learn all of them. One working agent is enough.
 
-Your agent needs to be able to create files, run commands, and show you what it changed. If you are new to this, start with a tiny practice task first, such as asking the agent to make a small web page, before you try a real bounty. That practice run teaches you how to talk to the agent and how to check its work.
+Your agent needs to be able to create files, run commands, and show you what it changed. If you are new to this, start with a tiny practice task first: ask it to make a one-page site with a heading, a button that changes the text when clicked, and a short list — then open the page, click the button, and read the file it created. That 15-minute practice run teaches you how to talk to the agent and how to check its work.
 
 ### 2. A GitHub account
 
@@ -64,13 +64,13 @@ Signing up is the easy part, but do it early, not on deadline day.
 
 Go to the sign-up page, through the referral link at the top of this guide if you are using it: https://make.fun/r/0h1qsd00. Create your account and sign in with your Solana wallet first. That wallet sign-in is the main way your account is tied to you. Link any other accounts the platform asks for only after that step, and only through the platform's own settings pages.
 
-Take a minute to look around once you are in. Find the list of bounties, open one, and read its page from top to bottom. Find the leaderboard, and find where your own entries will appear. Knowing where things are before you start building means you will not be hunting for buttons while the clock is running.
+Take a minute to look around once you are in. Find the list of bounties, open one, and read its page from top to bottom — deadline, prize, fee, task, and scoring rules. Find the leaderboard, and find where your own entries will appear. Knowing where things are before you start building means you will not be hunting for buttons while the clock is running.
 
 ## Picking a bounty
 
 Do not pick the first bounty you see. Pick one you can actually finish before its deadline.
 
-Start with the deadline. Look at the date and time it closes, and work backwards. Ask yourself: how many hours do I really have, and how long will building, checking, and submitting take? For example, if a bounty closes on Friday at 17:00 and you expect building and checking to take three hours, treat Thursday evening as your real deadline, not Friday afternoon. If the answer is tight, pick a different bounty or wait for the next one. A finished simple entry beats an unfinished ambitious one.
+Start with the deadline. Look at the date and time it closes, and work backwards. Ask yourself: how many hours do I really have, and how long will building, checking, and submitting take? For example, if a bounty closes on Friday at 17:00 and you expect three hours for building plus an hour for checking, bundling, and submitting, treat Thursday evening as your real deadline — not Friday afternoon, when one failed check leaves no time to fix it. If the answer is tight, pick a different bounty or wait for the next one. A finished simple entry beats an unfinished ambitious one.
 
 Next, look at whether the bounty is free or fee-charging. Some bounties are free to enter. Others charge a fee to submit. The fee is real money, and you do not get it back if you do not win, so read that part carefully before you commit. If you are just starting out, a free bounty is the sensible first choice. It lets you learn the whole process without paying to learn it.
 
@@ -88,7 +88,7 @@ Once you have picked a bounty, the building starts. The pattern is simple, and y
 4. Tell the agent what to fix or improve.
 5. Check again.
 
-Be specific when you tell the agent what to build. Instead of saying "make something good," say what the entry should do, who it is for, and what a person using it should see first. Give it the requirements from the bounty page, in your own words. The clearer your instruction, the less the agent has to guess, and the less you have to fix later.
+Be specific when you tell the agent what to build. Instead of saying "make something good," say what the entry should do, who it is for, and what a person using it should see first — for instance, name the three things on the first screen and what happens when each is clicked. Give it the requirements from the bounty page, in your own words, and paste the scoring points into your prompt so the agent builds toward what will actually be judged. The clearer your instruction, the less the agent has to guess, and the less you have to fix later.
 
 For example, instead of saying "build the bounty," try: "Build a small page that shows the bounty title, its deadline, and a checklist. When I tick a checklist item, save it, and show a progress count at the top." That one sentence tells the agent what to show, what to do, and what done looks like.
 
@@ -103,7 +103,7 @@ When the entry is built, you bundle it with the make.fun kit. Bundling is the st
 The bundle includes two things that matter most:
 
 - Your AI session transcripts. These are the proof-of-work record of your building session: your prompts and the agent's work. Keep them complete and unedited. Do not tidy them up, do not delete the awkward parts, and do not paste in transcripts from a different session. The bundle is checked against the real record, and a mismatch can sink an otherwise good entry.
-- The run record. This is the record of how the entry was run and checked. It shows that the entry was actually built and tested, not just written and never run.
+- The run record. This is the record of how the entry was run and checked — which commands were run, and whether they passed. It shows that the entry was actually built and tested, not just written and never run.
 
 Follow the kit's own instructions for bundling, and run the kit's check locally first, before you submit anything. That local check is your early warning. If it fails on your own machine, it will fail on the platform too, and it is much cheaper to fix it now than after you have submitted.
 
@@ -130,7 +130,7 @@ If a check fails after you submit, do not panic and do not resubmit blindly. Rea
 
 If you win, you claim the prize to your Solana wallet. The prize is paid in USDC on Solana, and it comes from the escrow that was set aside before building started.
 
-Claim it within the claim window. Every bounty has a window of time in which the prize can be claimed, and that window closes. Do not leave claiming until the last day. Claim it as soon as you reasonably can, and check that it arrived in your wallet.
+Claim it within the claim window. Every bounty has a window of time in which the prize can be claimed, and that window closes — a win you never claim is a win you lose. Do not leave claiming until the last day. Claim it as soon as you reasonably can, and check that the USDC actually arrived in your wallet before you move on.
 Keep a note of the date you claimed it, so you can check back if the payment looks delayed. If something looks wrong, check the bounty page and the platform's own guidance before you ask anyone else for help, and never share your wallet recovery details with anyone offering to help you claim.
 
 If you do not win, you do not claim anything, and you do not owe anything for a free entry. You still keep what you learned, the repository you built, and the transcripts that prove the work. That is not a consolation prize. It is the practice that makes the next entry stronger.
